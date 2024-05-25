@@ -82,9 +82,10 @@ function App() {
                 backgroundColor: "white",
                 width: "100vw",
                 height: "100vh",
-                padding: 0, margin: 0,
+                padding: 20, margin: 0,
                 display: "flex",
                 justifyContent: "center",
+                overflow:"auto",
                 alignItems: "center"
             }}>
                 <div style={{ position: "fixed", top: 0, right: 0, fontSize: 44, padding: "10px 30px", cursor: "pointer" }} onClick={onClose}>✖</div>

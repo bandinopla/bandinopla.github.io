@@ -1,9 +1,9 @@
 import React from "react"
 
 const Block = ({ title, img, children }:{title:string, img:string, children:React.ReactNode })=>{
-    return <div style={{clear:"both", margin:"3px 0"}}>
-        <img src={"/img"+img} alt={title} style={{ float:"left", padding:10}}/>
-        <h3 style={{paddingTop:10, marginBottom:0}}><span style={{color:"#C0E533", fontSize:30}}>✔</span> {title}</h3>
+    return <div style={{clear:"both", margin:"2px 0" }}>
+        <img src={"/img"+img} alt={title} style={{ float:"left", padding:10}} height={100}/>
+        <h3 style={{paddingTop:5, marginBottom:0}}><span style={{color:"#C0E533", fontSize:30}}>✔</span> {title}</h3>
         <div style={{color:"#999"}}>
         {children}
         </div>
@@ -12,7 +12,7 @@ const Block = ({ title, img, children }:{title:string, img:string, children:Reac
 
 
 export const SkillsSection = ()=>{
-    return <div style={{ maxWidth:"50%"}}>
+    return <div style={{ maxWidth:"50%", fontSize:"0.9em"}}>
         <h1>For the web, I can do:</h1> 
 
         <Block title="Static responsive websites" img="/static-websites.jpg">

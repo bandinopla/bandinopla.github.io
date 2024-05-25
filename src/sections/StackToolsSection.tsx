@@ -90,10 +90,10 @@ const stack = [
 ]
 
 export const StackToolsSection = ()=>{
-    return <div>
+    return <div style={{ fontSize:"1em"}}>
         <h1>Tools I'm familiar with:</h1>
 
-        <div style={{ columns:2, columnGap:30}}>
+        <div style={{ columns:3, columnGap:30}}>
         {
             stack.map((category, i)=><div key={i} style={{marginBottom:20}}>
                 <h3 style={{ marginTop:0}}>{category.category}</h3>
