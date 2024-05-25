@@ -58,7 +58,9 @@ const stack = [
             ["https://angular.io/", "Angular"],
             ["https://ionicframework.com","Ionic"],
             ["https://svelte.dev/","Svelte"],
-            ["https://jquery.com/","jQuery"]
+            ["https://jquery.com/","jQuery"],
+            ["https://threejs.org/","THREEjs"],
+            ["https://docs.pmnd.rs/react-three-fiber", "React Three Fiber"]
         ]
     },
     {
