@@ -1,0 +1,39 @@
+:root {
+    --text-color:#666;
+}
+
+* {
+    box-sizing: border-box;
+    text-shadow: 1px 1px 2px #ccc ;
+  }
+  
+  html,
+  body,
+  #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgb(223,236,255);
+    background: radial-gradient(circle, rgba(223,236,255,1) 0%, rgba(187,187,187,1) 99%); 
+
+    color:var(--text-color);
+  }
+  
+  body {
+    position: fixed;
+    overflow: hidden;
+  }
+  
+
+* {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 661;
+  font-style: normal;
+}
+
+.bsha {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,74 @@
+.mouse {
+    border:5px solid var(--text-color);
+    width: 30px;
+    height: 50px;
+    border-radius: 45px;
+    position: relative;
+    --button-color:var(--text-color); 
+    --circle-radius: 3px;
+    margin: 20px 0px;
+}
+
+.mouse > div {
+    display: none;
+}
+
+.LMB {
+    background-color: var(--button-color);
+    width: 50%;
+    height: 35%;
+    border-top-left-radius: 45px;
+}
+
+.MMB {
+    background-color: var(--button-color);
+    width: 30%;
+    height: 35%;
+    border-radius: 45px;
+    position: absolute;
+    left: 30%;
+    top:10%;
+}
+
+.RMB {
+    background-color: var(--button-color);
+    width: 50%;
+    height: 35%;
+    border-top-right-radius: 45px;
+    top:0px;
+    right:0px;
+    position: absolute;
+}
+
+.move::before,
+.pan::before,
+.zoom::before {
+    transform: rotate(-10deg);
+    top:-23px;
+    right: 0px;
+    position: absolute;
+    font-style: italic;
+}
+
+
+.move::before{
+    content: "Rotate";  
+}
+.move .LMB {
+    display: block;
+} 
+
+
+.pan::before { 
+    content: "Drag"; 
+}
+.pan .RMB {
+    display: block;
+} 
+
+.zoom::before { 
+    content: "Zoom"; 
+}
+.zoom .MMB {
+    display: block;
+} 
