@@ -13,6 +13,7 @@ const Block = ({ title, img, children }:{title:string, img:string, children:Reac
 
 export const SkillsSection = ()=>{
     return <div style={{ maxWidth:"50%", fontSize:"0.9em"}}>
+        <h3>My github is <a href="https://github.com/bandinopla" target="_blank">github.com/bandinopla</a>. I'm the creator of <a href="https://weightxreps.net/" target="_blank">weightxreps.net</a></h3>
         <h1>For the web, I can do:</h1> 
 
         <Block title="Static responsive websites" img="/static-websites.jpg">
