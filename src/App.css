@@ -6,3 +6,18 @@
     0 0.125em 0 #fefc4b;
 }
  
+.parentContent {
+    background-color: white;
+    width: 100vw ;
+    height: 100vh; 
+    margin: 0;
+    overflow:auto;
+}
+.parentContent .content { 
+    padding: 50px;
+    box-sizing: border-box; /* Ensures padding is included in the width and height */
+    display: flex;
+    justify-content: center;
+    
+    align-items: flex-start;
+}

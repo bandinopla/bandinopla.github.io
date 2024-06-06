@@ -2,7 +2,7 @@ import React from "react"
 
 const Block = ({ title, img, children }:{title:string, img:string, children:React.ReactNode })=>{
     return <div style={{clear:"both", margin:"2px 0" }}>
-        <img src={"/img"+img} alt={title} style={{ float:"left", padding:10}} height={100}/>
+        <img src={"/img"+img} alt={title} style={{ float:"left", padding:10}} height={80}/>
         <h3 style={{paddingTop:5, marginBottom:0}}><span style={{color:"#C0E533", fontSize:30}}>✔</span> {title}</h3>
         <div style={{color:"#999"}}>
         {children}
@@ -13,8 +13,8 @@ const Block = ({ title, img, children }:{title:string, img:string, children:Reac
 
 export const SkillsSection = ()=>{
     return <div style={{ maxWidth:"50%", fontSize:"0.9em"}}>
-        <h3>My github is <a href="https://github.com/bandinopla" target="_blank">github.com/bandinopla</a>. I'm the creator of <a href="https://weightxreps.net/" target="_blank">weightxreps.net</a></h3>
-        <h1>For the web, I can do:</h1> 
+        <h3>My github is <a href="https://github.com/bandinopla" target="_blank">github.com/bandinopla</a>. I'm the creator of <a href="https://weightxreps.net/" target="_blank">weightxreps.net</a>.</h3>
+        <h1>For the web, I can do:</h1> <br/>
 
         <Block title="Static responsive websites" img="/static-websites.jpg">
             Websites that use and show data that doesn't change and addapt to the size of the screen.
