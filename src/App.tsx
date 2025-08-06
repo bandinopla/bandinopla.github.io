@@ -68,7 +68,7 @@ function Modal({ item, onClose }: { item: PortfolioItem, onClose: () => void }) 
                 <h1>{item.title}</h1>
                 <div className='mb20' style={{ whiteSpace: "pre-line" }}>{item.desc ?? "---"}</div>
                 <div className='mb20' style={{ whiteSpace: "pre-line" }}>
-                    <strong>What did I did?</strong> {item.did ?? "---"}
+                    <strong>What did I do?</strong> {item.did ?? "---"}
                 </div>
 
                 <div className='tools mb20'>
