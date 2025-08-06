@@ -10,6 +10,14 @@ type PortfolioItem = typeof porfolio[number];
 
 function Modal({ item, onClose }: { item: PortfolioItem, onClose: () => void }) {
     // 'item' is intentionally unused for now, will be used for modal content later
+
+    useEffect(()=>{
+
+        document.body.classList.add("noscroll")
+        return ()=>document.body.classList.remove("noscroll")
+
+    }, [])
+
     return (
         <div style={{
             position: 'fixed',
@@ -22,6 +30,7 @@ function Modal({ item, onClose }: { item: PortfolioItem, onClose: () => void }) 
             zIndex: 1000,
             display: 'flex',
             flexDirection: 'column',
+            overflow:"auto"
         }}>
             <button
                 onClick={onClose}
