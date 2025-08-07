@@ -5,60 +5,67 @@ h1 {
 /* --- Thumbnail overlay styles --- */
 .thumbnail {
   position: relative;
-  display: inline-block;
-  overflow: hidden;
+  display: inline-block; 
   max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
 
 .thumbnail video {
   display: block;
   width: 100%;
   height: auto;
+  zoom: 1;
 }
+ 
 
-.thumbnail-title,
-.thumbnail-subtitle {
-  position: absolute;
-  left: 0.75em;
-  z-index: 2;
-  color: #fff; 
-  pointer-events: none;
-  background-color: rgba(0,0,0,0.5); 
-  padding: 2px 3px;
-}
-
-.thumbnail-title {
-  bottom: 1.6em;
-  font-size: 1.2em;
-  font-weight: bold;
-}
-
-.thumbnail-subtitle {
-  bottom: 0.7em;
+.thumbnail-title { 
   font-size: 1.1em;
-  opacity: 0.85;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.thumbnail-subtitle { 
+  font-size: 1.01em;
+  opacity: 0.85; 
 }
 .thumbnail-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 15px;
   padding: 40px;
   justify-content: center;
+  vertical-align: top;
+}
+
+.thumbnail .foot {
+  color: #fff; 
+  pointer-events: none;
+  background-color:#111;
+  padding: 12px 13px;
+  flex-grow: 1;
 }
 
 .thumbnail {
-  flex: 1 1 200px;
-  aspect-ratio: 1;
+  flex: 1 1 200px; 
   overflow: hidden;
   border-radius: 11px;
   cursor: pointer;
 }
 
 .thumbnail video {
-  width: 100%;
-  height: 100%;
+  width: 100%; 
   object-fit: fill;
   transition: opacity 0.2s;
+  border: 3px solid #000;
+  transform: scale(1.1);
+}
+.thumbnail .vid {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
 }
 
 .modal-body {

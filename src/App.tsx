@@ -30,7 +30,8 @@ function Modal({ item, onClose }: { item: PortfolioItem, onClose: () => void }) 
             zIndex: 1000,
             display: 'flex',
             flexDirection: 'column',
-            overflow:"auto"
+            overflow:"auto",
+            paddingBottom: 30
         }}>
             <button
                 onClick={onClose}
@@ -49,7 +50,7 @@ function Modal({ item, onClose }: { item: PortfolioItem, onClose: () => void }) 
             >
                 ×
             </button>
-            <div style={{ padding: 20, paddingTop: 50 }} className='modal-body'>
+            <div style={{ padding: 20, paddingTop: 80 }} className='modal-body'>
                 <div className='modal-cover'>
                 {item.cover && <img src={item.cover} style={{ marginBottom: 20 }} />}
                 {item.youtube && (
@@ -121,8 +122,10 @@ function App() {
                         onClick={() => setModalItem(item)}
                     >
                         <VideoThumbnail id={item.id}/> 
-                        <div className="thumbnail-title">{item.title}</div>
-                        <div className="thumbnail-subtitle">{item.what}</div>
+                        <div className='foot'>
+                            <div className="thumbnail-title">{item.title}</div>
+                            <div className="thumbnail-subtitle">{item.what}</div>
+                        </div>
                     </div>
                 ))}
             </div>
@@ -239,9 +242,11 @@ function VideoThumbnail({ id }:{ id:string }) {
         };
     });
 
-    return <video ref={vref} loop muted playsInline poster={`thumbnails/${id}.jpg`}>
+    return <div className='vid'>
+            <video ref={vref} loop muted playsInline poster={`thumbnails/${id}.jpg`}>
                 { playVideo && <source src={`thumbnails/${id}.mp4`} type="video/mp4" />}
            </video>
+           </div>
 }
 
 export default App
