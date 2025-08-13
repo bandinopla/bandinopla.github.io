@@ -96,26 +96,42 @@ function App() {
         const email = "pabloba"+"ndinopla" + "@g"+"mai"+"l.com";
         const el = document.getElementById("email-link");
         if (el) {
-            el.setAttribute("href", "mailto:" + email);
-            el.textContent = "Bandinopla";
+            el.setAttribute("href", "mailto:" + email); 
         }
-    })
+    }, [])
 
     return (
         <>
             <div className='header'>
-                <h1 className=' '>@<a id="email-link" target='_blank'>Bandinopla</a></h1>
+                <h1 className=' '>@<a href='https://x.com/bandinopla' target='_blank'>Bandinopla</a></h1>
                 <h2 className='mb20'>
-                    Full-stack developer with a creative edge and 3D art pipeline expertise.
+                    Addaptable developer with a creative edge and 3D art pipeline expertise.
                 </h2>
                 <p>
                     <a href='https://github.com/bandinopla' target='_blank'>Github</a>
                     <a href='https://x.com/bandinopla' target='_blank'>X</a>
                     <a href='https://www.artstation.com/bandinopla' target='_blank'>ArtStation</a>
+                    <a id="email-link" target='_blank'>Email</a>
                 </p>
             </div>
             <div className="thumbnail-row">
-                {porfolio.map(item => (
+                {porfolio.slice(0,3).map(item => (
+                    <div
+                        className="thumbnail"
+                        key={item.id}
+                        onClick={() => setModalItem(item)}
+                    >
+                        <VideoThumbnail id={item.id}/> 
+                        <div className='foot'>
+                            <div className="thumbnail-title">{item.title}</div>
+                            <div className="thumbnail-subtitle">{item.what}</div>
+                        </div>
+                    </div>
+                ))}
+            </div>
+
+            <div className="thumbnail-row">
+                {porfolio.slice(3).map(item => (
                     <div
                         className="thumbnail"
                         key={item.id}

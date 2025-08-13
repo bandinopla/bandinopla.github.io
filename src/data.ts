@@ -1,4 +1,7 @@
 export const $with = {
+    r3f: {
+        url:"https://r3f.docs.pmnd.rs/"
+    },
     js: {
         url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
     },
@@ -62,7 +65,7 @@ export const porfolio = [
     {
         id: "wxr",
         title: "Weight For Reps",
-        what: "Online training journals"
+        what: "website / Social"
         , links: [
             {
                 url: "https://weightxreps.net/",
@@ -107,6 +110,25 @@ export const porfolio = [
         , did: "Character design, modeling, rigging, texturing, modeling, animations, asset optimization, sound editing."
     },
     {
+        id:"robot",
+        title:"Meet Mira",
+        what:"website / SPA ",
+        youtube:"https://www.youtube.com/watch?v=Xlzzamhx4mg",
+        desc:"Fantasy site showcasing a new Unitree's Robot model that allows to plug in and switch silicone human-like bodyparts to re-skin it to make it look less robotic.",
+        links: [
+            {
+                name:"Online Live Demo",
+                url:"https://bandinopla-unitree.vercel.app/"
+            },
+            {
+                name:"Unitree's G1 Model",
+                url:"https://www.unitree.com/g1"
+            }
+        ],
+        tools: [$with.typescript, $with.three, $with.r3f, $with.blender],
+        did:"Character design, modeling, rigging, texturing, optimization, website, coding."
+    },
+    {
         id: "pip0",
         title: "P.I.P: Demo 1",
         what: "Unity / Game",
@@ -146,7 +168,7 @@ export const porfolio = [
             }
         ]
         , tools: [$with.csharp, $with.unity, $with.blender]
-        , did: "Character design, modeling, rigging, texturing, modeling, animations, asset optimization, sound editing."
+        , did: "Character design, modeling, rigging, texturing, animations, asset optimization, sound editing."
     },
     { // https://www.artstation.com/artwork/Le5vKR
         id: "vampire",
@@ -244,7 +266,7 @@ export const porfolio = [
                 url: "https://x.com/bandinopla/status/1951060739667755027"
             }
         ],
-        tools: [$with.typescript, $with.blender, $with.three, $with.cannones]
+        tools: [$with.typescript, $with.blender, $with.r3f, $with.three, $with.cannones]
         , did: "3D Asset integration and conditioning. Physics rig. Coding and re-texturing."
     }
 
