@@ -121,6 +121,10 @@ export const porfolio = [
                 url:"https://bandinopla-unitree.vercel.app/"
             },
             {
+                name:"Download/Inspect Android Model",
+                url:"https://sketchfab.com/3d-models/meet-mira-84a9713b68e74e4888979ac60a6868fb"
+            },
+            {
                 name:"Unitree's G1 Model",
                 url:"https://www.unitree.com/g1"
             }
