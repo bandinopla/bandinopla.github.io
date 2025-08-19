@@ -8,6 +8,9 @@ export const $with = {
     react: {
         url: "https://react.dev/"
     },
+    preact: {
+        url: "https://preactjs.com/"
+    },
     cannones: {
         url: "https://github.com/pmndrs/cannon-es"
     },
@@ -91,6 +94,25 @@ export const porfolio = [
         , did: "The entire site's coding, design, front and backend, content, idea and maintanance."
     },
     {
+        id:"astro",
+        title:"Astro Materials 3D",
+        what:"website / SPA ",
+        youtube:"https://www.youtube.com/watch?v=Pz_lYFEMw0Y",
+        desc:"My take on NASA's Astromaterials 3D virtual library. Here I used ray marching on the slices to get a 3D model view of the XRay Scans.",
+        links: [
+            {
+                name:"Online Live Demo",
+                url:"https://bandinopla-astromaterials-3d.vercel.app/"
+            },
+            {
+                name:"Astro Materials 3D",
+                url:"https://ares.jsc.nasa.gov/astromaterials3d"
+            }, 
+        ],
+        tools: [$with.typescript, $with.three, $with.preact, $with.blender],
+        did:"Visualization, Coding"
+    },
+    {
         id: "pip",
         title: "P.I.P: Skull Demo",
         what: "ThreeJs / Game",
@@ -135,7 +157,7 @@ export const porfolio = [
         ],
         tools: [$with.typescript, $with.three, $with.r3f, $with.blender],
         did:"Character design, modeling, rigging, texturing, optimization, website, coding."
-    },
+    }, 
     {
         id: "pip0",
         title: "P.I.P: Demo 1",

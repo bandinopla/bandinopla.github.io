@@ -115,7 +115,7 @@ function App() {
                 </p>
             </div>
             <div className="thumbnail-row">
-                {porfolio.slice(0,3).map(item => (
+                {porfolio.slice(0,4).map(item => (
                     <div
                         className="thumbnail"
                         key={item.id}
@@ -131,7 +131,7 @@ function App() {
             </div>
 
             <div className="thumbnail-row">
-                {porfolio.slice(3).map(item => (
+                {porfolio.slice(4).map(item => (
                     <div
                         className="thumbnail"
                         key={item.id}
