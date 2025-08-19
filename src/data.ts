@@ -96,9 +96,9 @@ export const porfolio = [
     {
         id:"astro",
         title:"Astro Materials 3D",
-        what:"website / SPA ",
+        what:"website / Visualization",
         youtube:"https://www.youtube.com/watch?v=Pz_lYFEMw0Y",
-        desc:"My take on NASA's Astromaterials 3D virtual library. Here I used ray marching on the slices to get a 3D model view of the XRay Scans.",
+        desc:"My take on NASA's Astromaterials 3D virtual library. Developed a real-time volumetric data visualization tool using raymarching to render 3D models from NASA’s X-ray computed tomography (CT) data. Implemented an interactive intensity-based filtering system to isolate and analyze internal geological structures.",
         links: [
             {
                 name:"Online Live Demo",
