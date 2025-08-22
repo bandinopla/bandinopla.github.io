@@ -108,6 +108,10 @@ export const porfolio = [
                 name:"Astro Materials 3D",
                 url:"https://ares.jsc.nasa.gov/astromaterials3d"
             }, 
+            {
+                name:"Article talking in depth about this technique",
+                url:"https://medium.com/@pablobandinopla/raymarching-a-better-way-to-explore-nasas-x-ray-scans-with-threejs-a114a6bee9e7"
+            }
         ],
         tools: [$with.typescript, $with.three, $with.preact, $with.blender],
         did:"Visualization, Coding"
