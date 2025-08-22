@@ -105,7 +105,7 @@ function App() {
             <div className='header'>
                 <h1 className=' '>@<a href='https://x.com/bandinopla' target='_blank'>Bandinopla</a></h1>
                 <h2 className='mb20'>
-                    Addaptable developer with a creative edge and 3D art pipeline expertise.
+                    Addaptable full-stack developer with a creative edge and 3D art pipeline expertise.
                 </h2>
                 <p>
                     <a href='https://github.com/bandinopla' target='_blank'>Github</a>

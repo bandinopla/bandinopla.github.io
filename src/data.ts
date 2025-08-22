@@ -96,7 +96,7 @@ export const porfolio = [
     {
         id:"astro",
         title:"Astro Materials 3D",
-        what:"website / Visualization",
+        what:"Virtual library / NASA Data",
         youtube:"https://www.youtube.com/watch?v=Pz_lYFEMw0Y",
         desc:"My take on NASA's Astromaterials 3D virtual library. Developed a real-time volumetric data visualization tool using raymarching to render 3D models from NASA’s X-ray computed tomography (CT) data. Implemented an interactive intensity-based filtering system to isolate and analyze internal geological structures.",
         links: [
@@ -115,7 +115,7 @@ export const porfolio = [
     {
         id: "pip",
         title: "P.I.P: Skull Demo",
-        what: "ThreeJs / Game",
+        what: "Brower game",
         youtube: "https://www.youtube.com/watch?v=RlODeS0Gc0o",
         links: [
             {
@@ -134,7 +134,7 @@ export const porfolio = [
     {
         id:"robot",
         title:"Meet Mira",
-        what:"website / SPA ",
+        what:"Interactive storytelling",
         youtube:"https://www.youtube.com/watch?v=Xlzzamhx4mg",
         desc:"Fantasy site showcasing a new Unitree's Robot model that allows to plug in and switch silicone human-like bodyparts to re-skin it to make it look less robotic.",
         links: [
@@ -199,11 +199,38 @@ export const porfolio = [
         ]
         , tools: [$with.csharp, $with.unity, $with.blender]
         , did: "Character design, modeling, rigging, texturing, animations, asset optimization, sound editing."
+    }
+    , { // 
+        id: "hope2",
+        title: "Hope2 (WIP)",
+        what: "Game (WIP)",
+        youtube: "https://www.youtube.com/watch?v=7YMku2MIY4Q",
+        desc: `Fantasy 2nd part of "Hope" a game I did for a Jam. Playing with the idea of making this a sequel...`,
+        links: [
+            {
+                name: "Camera test",
+                url: "https://x.com/bandinopla/status/1932372996385063109"
+            },
+            {
+                name: "Charatcer designs and updates",
+                url: "https://blenderartists.org/t/hope-2/1596993"
+            },
+            {
+                name: "Portal shader test",
+                url: "https://x.com/bandinopla/status/1934674112825217246"
+            },
+            {
+                name: "Playing with mirrors",
+                url: "https://x.com/bandinopla/status/1936141981979197650"
+            }
+        ],
+        did: "WIP. Game idea in which I'm working on. Doing all, from level to characters, textures, animations, shaders, coding, etc...",
+        tools: [$with.typescript, $with.three, $with.blender]
     },
     { // https://www.artstation.com/artwork/Le5vKR
         id: "vampire",
         title: "Vampire Lady",
-        what: "2D Concept to 3D",
+        what: "Concept to 3D",
         cover: "img/vampire.jpg",
         desc: "Vampire lady is a 3D port of an original 2D concept by Serge Birault",
         links: [
@@ -223,9 +250,9 @@ export const porfolio = [
     { // 
         id: "rig",
         title: "Physics Rigger",
-        what: "Addon + NPM Pakcage",
+        what: "Addon + Library Package",
         youtube: "https://www.youtube.com/watch?v=RtO2KUH9Vig",
-        desc: "Blender addon + NPM Pakcage to easily design physics rigs in blender and use them in ThreeJs with Cannon-es",
+        desc: "Blender addon + NPM Pakcage to easily design physics rigs in blender and use them in ThreeJs with Cannon-es so indie devs can prototype interactive 3D games without writing physics glue code saving hours of work.",
         links: [
             {
                 name: "Git repo (addon + source)",
@@ -239,7 +266,7 @@ export const porfolio = [
     {
         id: "fluid",
         title: "Fluid/Smoke Simulator",
-        what: "Shader",
+        what: "Library Package",
         youtube: "https://www.youtube.com/watch?v=tjaH322hQdc",
         desc: "Made a class to easily implement fluid/smoke simulation vía a texture shader. Offered in both WebGL(GLSL) and WebGPU(TSL)",
         links: [
@@ -260,7 +287,7 @@ export const porfolio = [
     { // https://www.artstation.com/artwork/el52Nw
         id: "lara",
         title: "Young Lara",
-        what: "3D",
+        what: "Full Character Pipeline",
         youtube: "https://www.youtube.com/watch?v=OXWi8kfhe4c",
         desc: "Young Lara ( Tomb Raider 4 ) - Game ready. 1 material, all textures baked. Low poly! This model is free to download",
         links: [
@@ -283,7 +310,7 @@ export const porfolio = [
     {
         id: "claw",
         title: "Physics Claw Machine",
-        what: "Physics / Demo",
+        what: "Physics driven mechanic",
         cover: "img/claw.jpg",
         desc: "Clam Mahcine simulator using a physics engine in threejs in the brower.",
         links: [
@@ -305,7 +332,7 @@ export const porfolio = [
     { //https://www.miniplay.com/game/days-of-blood
         id: "dob",
         title: "Days of Blood",
-        what: "Flash / Game",
+        what: "Game",
         youtube: "https://www.youtube.com/watch?v=_z0joE_1zQU",
         desc: "Defense game. You play a brave knight that has to save the young woman tied up about to be sacrificed to the evil gods of some crazy monks. For this game I got the help from voice actors to put their voices to the characters.",
         links: [
@@ -320,7 +347,7 @@ export const porfolio = [
     { // https://github.com/bandinopla/quick_flipbook
         id: "flip",
         title: "Quick Flipbook",
-        what: "ThreeJs NPM Package",
+        what: "Library Package",
         cover: "img/flipbook.gif",
         desc: "Library to create a flipbook with threejs",
         links: [
@@ -339,7 +366,7 @@ export const porfolio = [
     , { // 
         id: "body",
         title: "Exercise visualization",
-        what: "ThreeJs",
+        what: "Interactive exercie's enciclopedia",
         cover: "img/body.jpg",
         desc: "The goal is to show to people not gym savvy how a few barbell movements can help you get fit without complications.",
         links: [
@@ -358,7 +385,7 @@ export const porfolio = [
     , { // 
         id: "hand",
         title: "Hand Controlled Camera",
-        what: "MediaPipe | Js",
+        what: "Hand driven camera control",
         desc: "Coded a camera movement that is controlled by the hand gestures using Gogole's MediaPipe.",
         links: [
             {
@@ -372,7 +399,7 @@ export const porfolio = [
     , { // 
         id: "gta",
         title: "Sketchbook Mod",
-        what: "ThreeJs | js",
+        what: "Library modification",
         desc: "Modded Jan Bláha's Sketchbook replacing and adding some models to get a GTA vibe from it...",
         links: [
             {
@@ -390,7 +417,7 @@ export const porfolio = [
     , { // https://www.youtube.com/watch?v=tDGo3d1fFe0
         id: "ps1",
         title: "Half-Evil Eternal",
-        what: "Animation",
+        what: "Programatic Animation pipeline",
         desc: "Combined characters from Playstation 1 games into a single universe and animated them using ThreeJs and triggering actions vía code.",
         youtube: "https://www.youtube.com/watch?v=tDGo3d1fFe0",
         links: [
@@ -414,7 +441,7 @@ export const porfolio = [
     , {
         id: "monkey",
         title: "Black Myth: Spyro ",
-        what: "Animation",
+        what: "Programatic Animation pipeline",
         desc: "Used a higher polygon character alons with Wiggle Bones to animate the feathers. Was testing how it would look when more details are renderer. Voices done with AI",
         youtube: "https://www.youtube.com/watch?v=lGiWQSD1S4Y",
         links: [
@@ -429,7 +456,7 @@ export const porfolio = [
     , {
         id: "silent",
         title: "Silent Hill",
-        what: "ThreeJs demo",
+        what: "Mechanic demo / BVH Collisions",
         desc: "Trying to emulate the resident evil vibe from Playstation 1 but with a better flashlight",
         cover: "img/silent.jpg",
         links: [
@@ -505,33 +532,7 @@ export const porfolio = [
         did: "3D asset creation and quick prototype of this game for a Jam.",
         tools: [$with.typescript, $with.three, $with.blender]
     }
-    , { // 
-        id: "hope2",
-        title: "Hope2 (WIP)",
-        what: "Game",
-        youtube: "https://www.youtube.com/watch?v=7YMku2MIY4Q",
-        desc: `Fantasy 2nd part of "Hope" a game I did for a Jam. Playing with the idea of making this a sequel...`,
-        links: [
-            {
-                name: "Camera test",
-                url: "https://x.com/bandinopla/status/1932372996385063109"
-            },
-            {
-                name: "Charatcer designs and updates",
-                url: "https://blenderartists.org/t/hope-2/1596993"
-            },
-            {
-                name: "Portal shader test",
-                url: "https://x.com/bandinopla/status/1934674112825217246"
-            },
-            {
-                name: "Playing with mirrors",
-                url: "https://x.com/bandinopla/status/1936141981979197650"
-            }
-        ],
-        did: "WIP. Game idea in which I'm working on. Doing all, from level to characters, textures, animations, shaders, coding, etc...",
-        tools: [$with.typescript, $with.three, $with.blender]
-    }
+    
     , { //  | 
         id: "dna",
         title: "Local Dna Aligner",
