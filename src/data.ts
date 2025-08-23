@@ -127,6 +127,10 @@ export const porfolio = [
                 name: "Play the game now!"
             },
             {
+                url:"https://medium.com/@pablobandinopla/generating-texture-atlases-for-optimized-assets-63fd7a04021f",
+                name:"Article: Optimizing using Texture Atlases"
+            },
+            {
                 url: "https://x.com/bandinopla/status/1902267156386988270",
                 name: "First Tweet!"
             }
