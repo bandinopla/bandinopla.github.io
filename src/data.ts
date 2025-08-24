@@ -507,6 +507,10 @@ export const porfolio = [
                 url: "https://x.com/bandinopla/status/1927816079612461441"
             },
             {
+                name:"Article explaining how I did it",
+                url:"https://medium.com/@pablobandinopla/effortless-serverless-multiplayer-in-three-js-with-trystero-f025f31150c6"
+            },
+            {
                 name: "Trystero",
                 url: "https://github.com/dmotz/trystero"
             }
