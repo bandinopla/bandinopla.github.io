@@ -471,6 +471,10 @@ export const porfolio = [
             {
                 name: "Tweet with video demo",
                 url: "https://x.com/bandinopla/status/1926428457883312490"
+            },
+            {
+                name:"Article explaining how I did it",
+                url:"https://medium.com/@pablobandinopla/collision-detection-in-threejs-made-easy-using-bvh-1ce6012199e8"
             }
         ],
         did: "Integrated real game assets from PS1 games, rigged them. Coded the mechanic to emulate a resident evil vibe. Used three-bvh for collisions.",
