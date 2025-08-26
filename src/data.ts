@@ -151,6 +151,10 @@ export const porfolio = [
                 url:"https://bandinopla-unitree.vercel.app/"
             },
             {
+                name:"Article where I explain how I did this",
+                url:"https://medium.com/@pablobandinopla/scroll-driven-presentation-in-threejs-with-gsap-a2be523e430a"
+            },
+            {
                 name:"ArtStation | Renders",
                 url:"https://www.artstation.com/artwork/8BdZmx"
             },
