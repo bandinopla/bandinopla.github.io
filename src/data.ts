@@ -403,6 +403,10 @@ export const porfolio = [
             {
                 name: "Video demo",
                 url: "https://x.com/bandinopla/status/1917927590834155788"
+            },
+            {
+                name:"Article explaining how I did it",
+                url:"https://medium.com/@pablobandinopla/use-hand-gestures-to-control-three-js-99842d66e8ad"
             }
         ],
         did: "3D Asset integration and coding.",
