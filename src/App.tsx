@@ -111,6 +111,7 @@ function App() {
                     <a href='https://github.com/bandinopla' target='_blank'>Github</a>
                     <a href='https://x.com/bandinopla' target='_blank'>X</a>
                     <a href='https://www.artstation.com/bandinopla' target='_blank'>ArtStation</a>
+                    <a href='https://medium.com/@pablobandinopla' target='_blank'>Articles</a>
                     <a id="email-link" target='_blank'>Email</a>
                 </p>
             </div>
