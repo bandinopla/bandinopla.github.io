@@ -105,12 +105,13 @@ function App() {
             <div className='header'>
                 <h1 className=' '>@<a href='https://x.com/bandinopla' target='_blank'>Bandinopla</a></h1>
                 <h2 className='mb20'>
-                    Addaptable full-stack developer with a creative edge and 3D art pipeline expertise.
+                    Adaptable full-stack developer with a creative edge and 3D art pipeline expertise.
                 </h2>
                 <p>
                     <a href='https://github.com/bandinopla' target='_blank'>Github</a>
                     <a href='https://x.com/bandinopla' target='_blank'>X</a>
                     <a href='https://www.artstation.com/bandinopla' target='_blank'>ArtStation</a>
+					<a href='https://sketchfab.com/pablobandinopla/models' target='_blank'>Sketchfab</a>
                     <a href='https://medium.com/@pablobandinopla' target='_blank'>Articles</a>
                     <a id="email-link" target='_blank'>Email</a>
                 </p>

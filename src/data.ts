@@ -94,28 +94,68 @@ export const porfolio = [
         , did: "The entire site's coding, design, front and backend, content, idea and maintanance."
     },
     {
-        id:"astro",
-        title:"Astro Materials 3D",
-        what:"Virtual library / NASA Data",
-        youtube:"https://www.youtube.com/watch?v=Pz_lYFEMw0Y",
-        desc:"My take on NASA's Astromaterials 3D virtual library. Developed a real-time volumetric data visualization tool using raymarching to render 3D models from NASA’s X-ray computed tomography (CT) data. Implemented an interactive intensity-based filtering system to isolate and analyze internal geological structures.",
-        links: [
-            {
-                name:"Online Live Demo",
-                url:"https://bandinopla-astromaterials-3d.vercel.app/"
+		id:"aethelgard",
+		title:"Aethelgard",
+		what:"Game Mechanics",
+		youtube: "https://www.youtube.com/watch?v=4MGq9mOy3aY",
+		links:[
+			{
+				url:"https://sketchfab.com/3d-models/aethelgard-2a9c9e6bd99c4349ac6f6d80795192fc",
+				name:"Character model"
+			},
+			{
+				url:"https://x.com/bandinopla/status/1974902877601829154",
+				name:"Batch Instancing: grass field"
+			},
+			{
+				url:"https://x.com/bandinopla/status/1972710914223923236",
+				name:"Character re-design"
+			},
+			{
+				url:"https://x.com/bandinopla/status/1971141644130058604",
+				name:"ThreeJs Pull Request"
+			},
+			{
+				url:"https://x.com/bandinopla/status/1968382449572024753",
+				name:"Cutscene mechanic"
+			},
+			{
+				url:"https://x.com/bandinopla/status/1966653163831701976",
+				name:"Particle effects"
+			},
+			{
+				url:"https://x.com/bandinopla/status/1964407916653617551",
+				name:"New map: the cave"
+			},
+			{
+				url:"https://x.com/bandinopla/status/1964103771471958123",
+				name:"Adding Orcs"
+			},
+			{
+				url:"https://medium.com/@pablobandinopla/frame-callbacks-in-three-js-recreating-flashs-addframescript-with-animationclips-5ccc713bbb6e",
+				name:"Article: frame callbacks"
+			},
+			{
+                url: "https://x.com/bandinopla/status/1963720015594545263",
+                name: "Decimating to get 60FPS"
             },
-            {
-                name:"Astro Materials 3D",
-                url:"https://ares.jsc.nasa.gov/astromaterials3d"
-            }, 
-            {
-                name:"Article talking in depth about this technique",
-                url:"https://medium.com/@pablobandinopla/raymarching-a-better-way-to-explore-nasas-x-ray-scans-with-threejs-a114a6bee9e7"
+			{
+                url: "https://x.com/bandinopla/status/1962204827187855414",
+                name: "Skeleton instancing"
+            },
+			{
+                url: "https://x.com/bandinopla/status/1961894480795062581",
+                name: "Added god's rays"
+            },
+			{
+                url: "https://x.com/bandinopla/status/1961200142230466619",
+                name: "Level Blockout"
             }
-        ],
-        tools: [$with.typescript, $with.three, $with.preact, $with.blender],
-        did:"Visualization, Coding"
-    },
+		],
+		tools: [ $with.typescript, $with.three, $with.blender ],
+		desc: `A serie of RPG game mechanics that would encompass a game: point and click to move. Skill system. Weapon and inventory system. Particle system. Cutscene system. Enemy AI system. Environment optimization. Entity profile system ( describin units in a configuration array and spawning them using just a key )`,
+		did:"From the coding to the 3d work, the entire pipeline to produce the mechanics and gameplay of what a simple RPG would require, the basic functionality."
+	},
     {
         id: "pip",
         title: "P.I.P: Skull Demo",
@@ -139,6 +179,7 @@ export const porfolio = [
         , tools: [$with.typescript, $with.three, $with.cannones, $with.blender]
         , did: "Character design, modeling, rigging, texturing, modeling, animations, asset optimization, sound editing."
     },
+		
     {
         id:"robot",
         title:"Meet Mira",
@@ -170,6 +211,29 @@ export const porfolio = [
         tools: [$with.typescript, $with.three, $with.r3f, $with.blender],
         did:"Character design, modeling, rigging, texturing, optimization, website, coding."
     }, 
+	{
+        id:"astro",
+        title:"Astro Materials 3D",
+        what:"Virtual library / NASA Data",
+        youtube:"https://www.youtube.com/watch?v=Pz_lYFEMw0Y",
+        desc:"My take on NASA's Astromaterials 3D virtual library. Developed a real-time volumetric data visualization tool using raymarching to render 3D models from NASA’s X-ray computed tomography (CT) data. Implemented an interactive intensity-based filtering system to isolate and analyze internal geological structures.",
+        links: [
+            {
+                name:"Online Live Demo",
+                url:"https://bandinopla-astromaterials-3d.vercel.app/"
+            },
+            {
+                name:"Astro Materials 3D",
+                url:"https://ares.jsc.nasa.gov/astromaterials3d"
+            }, 
+            {
+                name:"Article talking in depth about this technique",
+                url:"https://medium.com/@pablobandinopla/raymarching-a-better-way-to-explore-nasas-x-ray-scans-with-threejs-a114a6bee9e7"
+            }
+        ],
+        tools: [$with.typescript, $with.three, $with.preact, $with.blender],
+        did:"Visualization, Coding"
+    },
     {
         id: "pip0",
         title: "P.I.P: Demo 1",
