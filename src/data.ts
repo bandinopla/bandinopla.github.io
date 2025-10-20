@@ -94,6 +94,25 @@ export const porfolio = [
         , did: "The entire site's coding, design, front and backend, content, idea and maintanance."
     },
     {
+        id: "bandijoystick",
+        title: "BandiJoystick.js",
+        what: "Library / npm"
+        , links: [
+            {
+                url: "https://bandijoystickjs.web.app/",
+                name: "Website"
+            }, 
+			{
+                url: "https://github.com/bandinopla/bandijoystick",
+                name: "Repo"
+            }, 
+        ]
+        , youtube: "https://www.youtube.com/watch?v=RfvawPnfTcI"
+        , tools: [$with.preact, $with.typescript, $with.npm]
+        , desc: `Turn a phone into a remote controller No apps. No installations. Just scan & play!`
+        , did: "The wrapper library around trystero and distributed it as an NPM package to allow developers to integrate it into their web apps easily. Also the site, promo videos, demos, etc..."
+    },
+    {
 		id:"aethelgard",
 		title:"Aethelgard",
 		what:"Game Mechanics",
