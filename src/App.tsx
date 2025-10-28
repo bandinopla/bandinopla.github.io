@@ -5,8 +5,12 @@ import { porfolio, $with } from './data';
 
 
 import { useState, useLayoutEffect, useRef, useEffect } from 'react';
+import GlitchText from './objects/GlitchText';
 
 type PortfolioItem = typeof porfolio[number];
+const techTitles = ['Full-Stack dev', 'Frontend Engineer', 'Backend Engineer', 'Creative dev', 'Product Engineer', '3D Developer', '3D Artist'];
+
+
 
 function Modal({ item, onClose }: { item: PortfolioItem, onClose: () => void }) {
     // 'item' is intentionally unused for now, will be used for modal content later
@@ -103,13 +107,15 @@ function App() {
     return (
         <>
             <div className='header'>
-                <h1 className=' '>@<a href='https://x.com/bandinopla' target='_blank'>Bandinopla</a></h1>
+                <h1 className=' '>
+					I'm a <GlitchText words={techTitles} />
+				</h1>
                 <h2 className='mb20'>
-                    Adaptable full-stack developer with a creative edge and 3D art pipeline expertise.
+                    Building end-to-end web experiences: reactive frontends, immersive 3D visualizations, and seamless backend service integrations. 
                 </h2>
                 <p>
                     <a href='https://github.com/bandinopla' target='_blank'>Github</a>
-                    <a href='https://x.com/bandinopla' target='_blank'>X</a>
+                    <a href='https://x.com/bandinopla' target='_blank'>@bandinopla</a>
                     <a href='https://www.artstation.com/bandinopla' target='_blank'>ArtStation</a>
 					<a href='https://sketchfab.com/pablobandinopla/models' target='_blank'>Sketchfab</a>
                     <a href='https://medium.com/@pablobandinopla' target='_blank'>Articles</a>

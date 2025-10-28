@@ -1,5 +1,6 @@
 :root {
     --text-color:#666;
+	--main-color: #f46d35;
 }
 
 * {
@@ -12,15 +13,15 @@
     width: 100%; 
     margin: 0;
     padding: 0; 
-    background: rgb(22, 22, 22); 
+background: #1c1e24;
+background: radial-gradient(circle, rgba(28, 30, 36, 1) 88%, rgba(17, 26, 46, 1) 100%); 
+ 
 font-size: 16px;
     color:var(--text-color);
-  } 
-  
- 
+  }  
 
 a {
-    color: aqua;
+    color: var(--main-color);
 }
 
 iframe {
