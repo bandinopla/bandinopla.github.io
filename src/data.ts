@@ -106,6 +106,10 @@ export const porfolio = [
                 url: "https://github.com/bandinopla/bandijoystick",
                 name: "Repo"
             }, 
+			{
+				url: "https://www.webgamedev.com/newsletter/028",
+				name:"webgamedev.com Issue #028"
+			}
         ]
         , youtube: "https://www.youtube.com/watch?v=RfvawPnfTcI"
         , tools: [$with.preact, $with.typescript, $with.npm]
