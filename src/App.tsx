@@ -5,10 +5,10 @@ import { porfolio, $with } from './data';
 
 
 import { useState, useLayoutEffect, useRef, useEffect } from 'react';
-import GlitchText from './objects/GlitchText';
+//import GlitchText from './objects/GlitchText';
 
 type PortfolioItem = typeof porfolio[number];
-const techTitles = ['Full-Stack dev', 'Frontend Engineer', 'Backend Engineer', 'Creative dev', 'Product Engineer', '3D Developer', '3D Artist'];
+//const techTitles = ['Full-Stack dev', 'Frontend Engineer', 'Backend Engineer', 'Creative dev', 'Product Engineer', '3D Developer', '3D Artist'];
 
 
 
@@ -107,9 +107,9 @@ function App() {
     return (
         <>
             <div className='header'>
-                <h1 className=' '>
-					I'm a <GlitchText words={techTitles} />
-				</h1>
+                <h2 className=' '>
+					Hello, I'm <strong>Bandinopla</strong>
+				</h2>
                 <h2 className='mb20'>
                     Building end-to-end web experiences: reactive frontends, immersive 3D visualizations, and seamless backend service integrations. 
                 </h2>

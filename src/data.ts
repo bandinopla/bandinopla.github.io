@@ -74,6 +74,10 @@ export const porfolio = [
                 url: "https://weightxreps.net/",
                 name: "Website"
             },
+			{
+                url: "https://www.youtube.com/watch?v=EzaKmv4cKlw",
+                name: "AI Integration ( ChatGPT, Grok, Gemini + Ollama )"
+            },
             {
                 url: "https://github.com/bandinopla/weightxreps-client",
                 name: "Front-end repo"
