@@ -165,6 +165,46 @@ export const porfolio = [
     tools: [$with.typescript, $with.three, $with.cannones, $with.blender],
     did: "Character design, modeling, rigging, texturing, modeling, animations, asset optimization, sound editing.",
   },
+  {
+    //
+    id: "hope2",
+    title: "Hope2 (WIP)",
+    what: "Game (WIP)",
+    youtube: "https://www.youtube.com/watch?v=7YMku2MIY4Q",
+    desc: `Fantasy 2nd part of "Hope" a game I did for a Jam. Playing with the idea of making this a sequel...`,
+    links: [
+      {
+        name: "Teaser",
+        url: "https://www.youtube.com/watch?v=wGFWbPjtJEQ",
+      },
+	  {
+		name:"Teaser ( Evil Monks )",
+		url:"https://www.youtube.com/watch?v=YP_k6HFQFVo"
+	  },
+	  {
+		name:"Teaser (Ice)",
+		url:"https://www.youtube.com/watch?v=-d4UfCUAZHU"
+	  },
+      {
+        name: "Camera test",
+        url: "https://x.com/bandinopla/status/1932372996385063109",
+      },
+      {
+        name: "Charatcer designs and updates",
+        url: "https://blenderartists.org/t/hope-2/1596993",
+      },
+      {
+        name: "Portal shader test",
+        url: "https://x.com/bandinopla/status/1934674112825217246",
+      },
+      {
+        name: "Playing with mirrors",
+        url: "https://x.com/bandinopla/status/1936141981979197650",
+      },
+    ],
+    did: "WIP. Game idea in which I'm working on. Doing all, from level to characters, textures, animations, shaders, coding, etc...",
+    tools: [$with.typescript, $with.three, $with.blender],
+  },
 
   {
     id: "aethelgard",
@@ -327,34 +367,7 @@ export const porfolio = [
     tools: [$with.csharp, $with.unity, $with.blender],
     did: "Character design, modeling, rigging, texturing, animations, asset optimization, sound editing.",
   },
-  {
-    //
-    id: "hope2",
-    title: "Hope2 (WIP)",
-    what: "Game (WIP)",
-    youtube: "https://www.youtube.com/watch?v=7YMku2MIY4Q",
-    desc: `Fantasy 2nd part of "Hope" a game I did for a Jam. Playing with the idea of making this a sequel...`,
-    links: [
-      {
-        name: "Camera test",
-        url: "https://x.com/bandinopla/status/1932372996385063109",
-      },
-      {
-        name: "Charatcer designs and updates",
-        url: "https://blenderartists.org/t/hope-2/1596993",
-      },
-      {
-        name: "Portal shader test",
-        url: "https://x.com/bandinopla/status/1934674112825217246",
-      },
-      {
-        name: "Playing with mirrors",
-        url: "https://x.com/bandinopla/status/1936141981979197650",
-      },
-    ],
-    did: "WIP. Game idea in which I'm working on. Doing all, from level to characters, textures, animations, shaders, coding, etc...",
-    tools: [$with.typescript, $with.three, $with.blender],
-  },
+  
   {
     // https://www.artstation.com/artwork/Le5vKR
     id: "vampire",
@@ -387,6 +400,10 @@ export const porfolio = [
         name: "Git repo (addon + source)",
         url: "https://github.com/bandinopla/threejs-cannones-rigger",
       },
+	  {
+		name:"Raycast Vehicle Tutorial",
+		url:"https://www.youtube.com/watch?v=T67fDjiqEog"
+	  }
     ],
     tools: [
       $with.typescript,
