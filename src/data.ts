@@ -120,28 +120,36 @@ export const porfolio = [
     did: "The entire site's coding, design, front and backend, content, idea and maintanance.",
   },
   {
-    id: "bandijoystick",
-    title: "BandiJoystick.js",
-    what: "Library / npm",
+    id: "simple-cloth",
+    title: "Simple Cloth",
+    what: "NPM Package",
+    youtube: "https://www.youtube.com/watch?v=GHi2Zvr32oY",
     links: [
       {
-        url: "https://bandijoystickjs.web.app/",
-        name: "Website",
+        url: "https://bandinopla.github.io/three-simplecloth/?demo=skirt",
+        name: "Play demo now!",
       },
       {
-        url: "https://github.com/bandinopla/bandijoystick",
-        name: "Repo",
+        url: "https://medium.com/@pablobandinopla/simple-cloth-simulation-with-three-js-and-compute-shaders-on-skeletal-animated-meshes-acb679a70d9f",
+        name: "Article: Simple Cloth Simulation with Three.js and Compute Shaders on Skeletal Animated Meshes",
       },
       {
-        url: "https://www.webgamedev.com/newsletter/028",
-        name: "webgamedev.com Issue #028",
+        url: "https://x.com/bandinopla/status/2023907653278158937",
+        name: "First Tweet!",
+      },
+	  {
+        url: "https://www.npmjs.com/package/three-simplecloth",
+        name: "NPM Package",
+      },
+	  {
+        url: "https://github.com/bandinopla/three-simplecloth",
+        name: "Github Repo",
       },
     ],
-    youtube: "https://www.youtube.com/watch?v=RfvawPnfTcI",
-    tools: [$with.preact, $with.typescript, $with.npm],
-    desc: `Turn a phone into a remote controller No apps. No installations. Just scan & play!`,
-    did: "The wrapper library around trystero and distributed it as an NPM package to allow developers to integrate it into their web apps easily. Also the site, promo videos, demos, etc...",
-  },
+    desc: `Class to turn a skinned mesh into a cloth simulated using webGPU by vertex painting on vertices you want to turn into cloth. It uses compute shaders to simulate the cloth and render it as a skin mesh.`,
+    tools: [$with.typescript, $with.three, $with.blender],
+    did: "Addapted and expanded on top of a ThreeJs example file showcasing the use of compute shaders to run cloth simulations. I added the ability to paint vertices to turn them into cloth, and to add magnets to interact with the cloth.",
+  },  
   {
     id: "pip",
     title: "P.I.P: Skull Demo",
@@ -164,6 +172,29 @@ export const porfolio = [
     desc: `"Planetary Interstelar Pioneer: Skull Demo" is a threejs browser game, the 2nd release of this "fantasy" game I made about the protagonist now having to deal with a giant skeleton entity that attempts to stop her from completing her mission. Runs in the browser.`,
     tools: [$with.typescript, $with.three, $with.cannones, $with.blender],
     did: "Character design, modeling, rigging, texturing, modeling, animations, asset optimization, sound editing.",
+  },
+    {
+    id: "bandijoystick",
+    title: "BandiJoystick.js",
+    what: "Library / npm",
+    links: [
+      {
+        url: "https://bandijoystickjs.web.app/",
+        name: "Website",
+      },
+      {
+        url: "https://github.com/bandinopla/bandijoystick",
+        name: "Repo",
+      },
+      {
+        url: "https://www.webgamedev.com/newsletter/028",
+        name: "webgamedev.com Issue #028",
+      },
+    ],
+    youtube: "https://www.youtube.com/watch?v=RfvawPnfTcI",
+    tools: [$with.preact, $with.typescript, $with.npm],
+    desc: `Turn a phone into a remote controller No apps. No installations. Just scan & play!`,
+    did: "The wrapper library around trystero and distributed it as an NPM package to allow developers to integrate it into their web apps easily. Also the site, promo videos, demos, etc...",
   },
   {
     //
