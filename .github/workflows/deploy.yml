@@ -1,34 +1,32 @@
-name: Deploy to Github Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
-      - main
+      - main  # or your default branch
 
-  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write  # This is what's missing!
 
 jobs:
-  deployment:
+  deploy:
     runs-on: ubuntu-latest
-
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: "lts/*"
-          cache: "npm"
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Build
-        run: |
-          npm i --legacy-peer-deps
-          npm run build 
+        run: npm run build  # or whatever builds to ./dist
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist' 
+          path: './dist'
 
       - name: Deploy to GitHub Pages
         id: deployment
