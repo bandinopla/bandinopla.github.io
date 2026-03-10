@@ -131,10 +131,7 @@ function App() {
           Hello, I'm <strong>Bandinopla</strong>
         </h2>
         <h2 className="mb20" style={{ maxWidth: "800px", padding: 20 }}>
-          Developer experienced with JavaScript and TypeScript across multiple
-          environments. Builds complete web and 3D applications end to end.
-          Adapts quickly to new tools and platforms through strong documentation
-          reading and problem-solving skills.
+          3D Generalist, JavaScript & TypeScript developer. Web and 3D, end to end. Pairs with AI to think sharper and build faster.
         </h2>
         <p>
           <a href="https://github.com/bandinopla" target="_blank">
