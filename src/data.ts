@@ -173,6 +173,33 @@ export const porfolio = [
     tools: [$with.typescript, $with.three, $with.cannones, $with.blender],
     did: "Character design, modeling, rigging, texturing, modeling, animations, asset optimization, sound editing.",
   },
+  {
+	id:"mediapipe",
+	title:"Easy Rig",
+	what: "Library / npm",
+	cover:"https://github.com/bandinopla/three-mediapipe-rig/raw/main/cover.jpg",
+	links: [
+		{
+			url:"https://github.com/bandinopla/three-mediapipe-rig",
+			name:"Repo"
+		},
+		{
+			url:"https://bandinopla.github.io/three-mediapipe-rig/",
+			name:"Online Demo"
+		},
+		{
+			url:"https://www.npmjs.com/package/three-mediapipe-rig",
+			name:"NPM Package"
+		},
+		{
+			url:"https://x.com/bandinopla/status/2028153635637457351",
+			name:"Tweet"
+		}
+	],
+	desc:"Control a character with the webcam. Easily rig a mediapipe face, body and hands landmarks into a skeleton in threejs.",
+	tools:[$with.typescript, $with.three, $with.mediapipe],
+	did:"Wrapper around mediapipe, it will calculate the bone's positions of a skeleton to match the landmarks provided by mediapipe. ",
+  },
     {
     id: "bandijoystick",
     title: "BandiJoystick.js",
