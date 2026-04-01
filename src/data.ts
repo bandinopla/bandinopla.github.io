@@ -65,21 +65,38 @@ export const $with = {
 };
 
 export const porfolio = [
-  {
-    id: "askai",
-    title: "Ask AI",
-    what: "Ai Agent",
-    links: [
-      {
-        url: "https://weightxreps.net/ask-ai",
-        name: "Ask the AI",
-      },
-    ],
-    youtube: "https://www.youtube.com/watch?v=EzaKmv4cKlw",
-    tools: [$with.preact, $with.js, $with.typescript, $with.ai],
-    desc: `Integrating AI into Weight For Reps`,
-    did: "Integrated OpenAI, Grok, Gemini and Ollama into Weight For Reps. You can chat about your training with the AIs and switch at any time since the chat remains the same and messages are internally normalized to be exchanged between apis.",
-  },
+	{
+		id:"meshcap",
+		title:"Meshcap",
+		what:"3D Avatar",
+		links:[
+			{
+				url:"https://bandinopla.github.io/three-mediapipe-rig/?editor=meshcap",
+				name:"Launch the Online Editor"
+			},
+			{
+				url:"https://github.com/bandinopla/three-mediapipe-rig/blob/main/MESHCAP.md",
+				name:"Documentation / Repo"
+			},
+			{
+				url:"https://x.com/bandinopla/status/2036050685817405858",
+				name:"First tweet, intriducing MeshCap"
+			},
+			{
+				url:"https://x.com/bandinopla/status/2038725295566418075",
+				name:"Video showcasing clips with audio!"
+			},
+			{
+				url:"https://bandinopla.github.io/three-mediapipe-rig/?demo=game-youtubers",
+				name:"Card game showing use + source code"
+			}
+		],
+		youtube:"https://www.youtube.com/watch?v=J1qBI1cyIss",
+		tools:[$with.three, $with.js, $with.typescript, $with.ai, $with.shaders],
+		desc:"Online editor to use Google's media pipe face tracking to record animated meshes with sound",
+		did:"Created the editor as a conventient tool to easily and almost trivially produce animated facial recordings that will deform and texture a mesh with sound being played in sync with the deformations. Useful for games.",
+	},
+  
   {
     id: "wxr",
     title: "Weight For Reps",
@@ -199,6 +216,21 @@ export const porfolio = [
 	desc:"Control a character with the webcam. Easily rig a mediapipe face, body and hands landmarks into a skeleton in threejs.",
 	tools:[$with.typescript, $with.three, $with.mediapipe],
 	did:"Wrapper around mediapipe, it will calculate the bone's positions of a skeleton to match the landmarks provided by mediapipe. ",
+  },
+  {
+    id: "askai",
+    title: "Ask AI",
+    what: "Ai Agent",
+    links: [
+      {
+        url: "https://weightxreps.net/ask-ai",
+        name: "Ask the AI",
+      },
+    ],
+    youtube: "https://www.youtube.com/watch?v=EzaKmv4cKlw",
+    tools: [$with.preact, $with.js, $with.typescript, $with.ai],
+    desc: `Integrating AI into Weight For Reps`,
+    did: "Integrated OpenAI, Grok, Gemini and Ollama into Weight For Reps. You can chat about your training with the AIs and switch at any time since the chat remains the same and messages are internally normalized to be exchanged between apis.",
   },
     {
     id: "bandijoystick",
