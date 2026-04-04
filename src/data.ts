@@ -218,6 +218,21 @@ export const porfolio = [
 	did:"Wrapper around mediapipe, it will calculate the bone's positions of a skeleton to match the landmarks provided by mediapipe. ",
   },
   {
+	id:"spinners",
+	title:"Three.js Spinners",
+	what:"UI Asset",
+	cover:"img/spinner.png",
+	links: [
+		{
+			url:"https://threejs-spinners.web.app/",
+			name:"WebGPU Spinners"
+		}, 
+	],
+	desc:"Easy to copy & paste spinners for your threejs projects. Runs in the browser. Using webGPU point rendering.",
+	tools:[$with.typescript, $with.three, $with.shaders],
+	did:"The UI allows you to quickly see/edit the code for a spinner and copy it to your project.",
+  },
+  {
     id: "askai",
     title: "Ask AI",
     what: "Ai Agent",
