@@ -161,6 +161,20 @@ export const porfolio = [
     did: "Character design, modeling, rigging, texturing, modeling, animations, asset optimization, sound editing.",
   },
   {
+	id:"gnome",
+	title:"Gnome vs Noisy Apes",
+	what:"Browser Game",
+	cover:"img/gnome.jpg",
+	youtube:"https://www.youtube.com/watch?v=0N05WOhNanA",
+	links:[
+		{ url:"https://gnome-vs-noisy-apes.web.app/", name:"Play it here!"}, 
+	],
+	desc:"Threejs browser game where you play as a gnome fighting off noisy apes",
+	did:"The entire game. Models from Sketchfab, some graphical elements with AI. Game is 4.4Mb optimized for mobile and desktop.",
+	tools:[$with.three, $with.js, $with.typescript, $with.ai, $with.shaders],
+  },
+
+  {
 	id:"posecap",
 	title:"PoseCap",
 	what:"Online Editor",
