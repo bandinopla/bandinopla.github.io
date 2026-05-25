@@ -175,6 +175,19 @@ export const porfolio = [
   },
 
   {
+	id:"meowjong",
+	title:"Meowjong Solitaire",
+	what:"Browser Game",
+	cover:"img/meowjong.jpg", 
+	links:[
+		{ url:"https://meowjong-solitaire.web.app/", name:"Play it here!"}, 
+	],
+	desc:"Threejs browser game. Mahjong themed around cats. Pair the matching symbols.",
+	did:"The entire game. Images made with chatgpt and gemini.",
+	tools:[$with.three, $with.js, $with.typescript, $with.ai, $with.shaders],
+  },
+
+  {
 	id:"posecap",
 	title:"PoseCap",
 	what:"Online Editor",
