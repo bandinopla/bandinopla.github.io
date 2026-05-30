@@ -1,1 +1,0 @@
-export const ContactSection = ()=><div>pablobandinopla@gmail.com</div>

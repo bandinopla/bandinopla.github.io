@@ -1,3 +1,25 @@
+export interface Tool {
+  url: string;
+}
+
+export interface Link {
+  url: string;
+  name: string;
+}
+
+export interface PortfolioItem {
+  id: string;
+  title: string;
+  what: string;
+  links?: Link[];
+  youtube?: string;
+  tools?: Tool[];
+  desc: string;
+  did?: string;
+  cover?: string;
+  screenshots?: string[];
+}
+
 export const $with = {
   r3f: {
     url: "https://r3f.docs.pmnd.rs/",
@@ -711,7 +733,7 @@ export const porfolio = [
     //
     id: "gta",
     title: "Sketchbook Mod",
-    what: "Library modification",
+    what: "Modification",
     desc: "Modded Jan Bláha's Sketchbook replacing and adding some models to get a GTA vibe from it...",
     links: [
       {
@@ -986,3 +1008,15 @@ export const porfolio = [
     tools: [$with.flash, $with.as3],
   },
 ];
+
+export const projects = porfolio.slice(0, 4);
+
+const isNpm = (p: PortfolioItem) => 
+  (p.what || '').toLowerCase().includes('npm') || 
+  (p.desc || '').toLowerCase().includes('npm') ||
+  (p.desc.includes("Library") || p.what.includes("Library"))
+  || p.what.includes("Online Editor")
+  || p.what.includes("UI Asset");
+
+export const packages = porfolio.slice(4).filter(isNpm);
+export const experiments = porfolio.slice(4).filter(p => !isNpm(p));
