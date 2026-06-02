@@ -1,3 +1,5 @@
+import { Youtube } from "lucide-react";
+
 export interface Tool {
   url: string;
 }
@@ -194,6 +196,19 @@ export const porfolio = [
 	desc:"Threejs browser game where you play as a gnome fighting off noisy apes",
 	did:"The entire game. Models from Sketchfab, some graphical elements with AI. Game is 4.4Mb optimized for mobile and desktop.",
 	tools:[$with.three, $with.js, $with.typescript, $with.ai, $with.shaders],
+  },
+
+  {
+	id:"aracnoid",
+	title:"Procedural IK Locomotion",
+	what:"IK Rig", 
+	youtube:"https://www.youtube.com/shorts/g7x5mseMOTQ",
+	desc:"Procedural locomotion system for a spider-like creature.",
+	did:"Rigged 3D model to use an IK system for procedural locomotion.",
+	tools:[$with.blender,$with.three, $with.js, $with.typescript,],
+	links:[
+		{ url:"https://aracnoid-rid-demo.web.app/", name:"Play it here!"}, 
+	],
   },
 
   {
