@@ -199,6 +199,19 @@ export const porfolio = [
   },
 
   {
+	id:"lookdev",
+	title:"Look Dev",
+	what:"Lookdev",
+	desc:"Look and Feel of a retro Scifi scene, posibly for a game?",
+	did:"Scene assembly and color manipulation to achieve a desired look",
+	youtube:"https://youtu.be/32T5dfLUIBA",
+	tools:[$with.three, $with.js, $with.typescript, $with.shaders],
+	links:[
+		{ url:"https://x.com/bandinopla/status/2062619298745528601", name:"X Post"}, 
+	],
+  },
+
+  {
 	id:"aracnoid",
 	title:"Procedural IK Locomotion",
 	what:"IK Rig", 

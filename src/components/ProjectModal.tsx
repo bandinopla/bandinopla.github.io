@@ -101,7 +101,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
             
             {project.did && (
               <div className="mb-8 pl-4 border-l border-stone-200">
-                <h4 className="text-[10px] tracking-[0.2em] uppercase text-[#1a1a1a] mb-3 font-bold">Things to Notice</h4>
+                <h4 className="text-[10px] tracking-[0.2em] uppercase text-[#1a1a1a] mb-3 font-bold">What did I do?</h4>
                 <p className="text-sm font-light text-stone-600 leading-relaxed">
                   {project.did}
                 </p>
