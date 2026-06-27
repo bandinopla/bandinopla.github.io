@@ -197,7 +197,18 @@ export const porfolio = [
 	did:"The entire game. Models from Sketchfab, some graphical elements with AI. Game is 4.4Mb optimized for mobile and desktop.",
 	tools:[$with.three, $with.js, $with.typescript, $with.ai, $with.shaders],
   },
-
+  {
+	id:"ikpro",
+	title:"IK Playground",
+	what:"Editor",
+	desc:"Editor to experiment with IK rigs. The goal is to make learning and experimenting with IK much more approachable. ",
+	did:"Editor. It has a prefab system to allow the instantiation of linked duplicates. Command pattern with CTRL-Z and redo support. Load/Save rigs into a custom file format. ",
+	youtube:"https://youtu.be/32T5dfLUIBA",
+	tools:[$with.three, $with.react, $with.typescript, $with.shaders],
+	links:[
+		{ url:"https://x.com/bandinopla/status/2062619298745528601", name:"X Post"}, 
+	],
+  },
   {
 	id:"lookdev",
 	title:"Look Dev",
@@ -1043,7 +1054,7 @@ const isNpm = (p: PortfolioItem) =>
   (p.what || '').toLowerCase().includes('npm') || 
   (p.desc || '').toLowerCase().includes('npm') ||
   (p.desc.includes("Library") || p.what.includes("Library"))
-  || p.what.includes("Online Editor")
+  || p.what.includes("Editor")
   || p.what.includes("UI Asset");
 
 export const packages = porfolio.slice(4).filter(isNpm);
