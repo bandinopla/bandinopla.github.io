@@ -203,10 +203,11 @@ export const porfolio = [
 	what:"Editor",
 	desc:"Editor to experiment with IK rigs. The goal is to make learning and experimenting with IK much more approachable. ",
 	did:"Editor. It has a prefab system to allow the instantiation of linked duplicates. Command pattern with CTRL-Z and redo support. Load/Save rigs into a custom file format. ",
-	youtube:"https://youtu.be/32T5dfLUIBA",
+	youtube:"https://www.youtube.com/watch?v=NdBZjo0lS98",
 	tools:[$with.three, $with.react, $with.typescript, $with.shaders],
 	links:[
-		{ url:"https://x.com/bandinopla/status/2062619298745528601", name:"X Post"}, 
+		{ url:"https://kinematic-pro.web.app/", name:"Online Editor"}, 
+		{ url:"https://x.com/bandinopla/status/2070626537292931289", name:"X Post"}, 
 	],
   },
   {
