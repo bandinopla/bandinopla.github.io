@@ -22,14 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-*.pem
-*.psd
-render
-capturas
-bakesoffice-bake
-bakes
-3d
-*.blend
-*.blend1
-*.pur
-*.txt
+old/
+new/
+3d/
