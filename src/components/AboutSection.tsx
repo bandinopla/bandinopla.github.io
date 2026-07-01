@@ -13,7 +13,7 @@ export const AboutSection: React.FC = () => {
       <div className="absolute inset-0 opacity-15 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-red-900/50 via-zinc-950 to-zinc-950 pointer-events-none"></div>
 
       {/* Central Portrait Image - Positioned absolutely to sit behind/between text */}
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[700px] h-[85%] md:h-[95%] z-0 pointer-events-none flex items-end justify-center">
+      <div className="hidden md:block absolute bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[700px] h-[85%] md:h-[95%] z-0 pointer-events-none flex items-end justify-center">
         <img 
           src="/profile2.jpg" 
           alt="Operative Profile" 
@@ -107,7 +107,7 @@ export const AboutSection: React.FC = () => {
             <div>
               <h4 className="text-white font-bold text-xl mb-3 uppercase tracking-wide">Diverse Tech Stack</h4>
               <p className="text-zinc-400 leading-relaxed text-sm md:text-base">
-                Familiar with a wide range of technologies and technique allowing me to adapt to any multimedia project.
+                Familiar with a wide range of technologies and technique allowing me to adapt to any project.
               </p>
             </div>
           </div>
