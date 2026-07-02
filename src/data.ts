@@ -514,27 +514,6 @@ export const MOCK_DATA: MediaItem[] = [
     ],
   },
   {
-    id: "flip",
-    title: "Quick Flipbook",
-    category: Category.Libraries,
-    thumbnailUrl: "/thumbnails/flip.jpg",
-    heroCoverUrl: "/img/flipbook.gif",
-    shortDescription: "Library to create a flipbook with threejs.",
-    longDescription:
-      "Coded an npm package to easily allow users to implement a flip-book mechanic.",
-    links: [
-      {
-        caption: "Git Repo",
-        launch: true,
-        url: "https://github.com/bandinopla/quick_flipbook",
-      },
-      {
-        caption: "NPM Package",
-        url: "https://www.npmjs.com/package/quick_flipbook",
-      },
-    ],
-  },
-  {
     id: "fluid",
     title: "Fluid/Smoke Simulator",
     category: Category.Libraries,
@@ -575,6 +554,27 @@ export const MOCK_DATA: MediaItem[] = [
       {
         caption: "Raycast Vehicle Tutorial",
         url: "https://www.youtube.com/watch?v=T67fDjiqEog",
+      },
+    ],
+  },
+  {
+    id: "flip",
+    title: "Quick Flipbook",
+    category: Category.Libraries,
+    thumbnailUrl: "/thumbnails/flip.jpg",
+    heroCoverUrl: "/img/flipbook.gif",
+    shortDescription: "Library to create a flipbook with threejs.",
+    longDescription:
+      "Coded an npm package to easily allow users to implement a flip-book mechanic.",
+    links: [
+      {
+        caption: "Git Repo",
+        launch: true,
+        url: "https://github.com/bandinopla/quick_flipbook",
+      },
+      {
+        caption: "NPM Package",
+        url: "https://www.npmjs.com/package/quick_flipbook",
       },
     ],
   },
@@ -956,7 +956,7 @@ export const MOCK_DATA: MediaItem[] = [
     id: "vampire",
     title: "Vampire Lady",
     category: Category.Concept,
-    thumbnailUrl: "/thumbnails/vampire.jpg",
+    thumbnailUrl: "/img/vampire.jpg",
     heroCoverUrl: "/img/vampire.jpg",
     shortDescription:
       "Vampire lady is a 3D port of an original 2D concept by Serge Birault.",
@@ -999,7 +999,7 @@ export const MOCK_DATA: MediaItem[] = [
     id: "cu",
     title: "Bullzara",
     category: Category.Concept,
-    thumbnailUrl: "/thumbnails/cu.jpg",
+    thumbnailUrl: "/img/bull.jpg",
     heroCoverUrl: "/img/bull.jpg",
     shortDescription:
       "Stylized 3D character design of a character made by Bullzara.",
@@ -1072,7 +1072,7 @@ export const MOCK_DATA: MediaItem[] = [
     id: "trystero",
     title: "Multiplayer",
     category: Category.Concept,
-    thumbnailUrl: "/thumbnails/trystero.jpg",
+    thumbnailUrl: "/img/trystero.jpg",
     heroCoverUrl: "/img/trystero.jpg",
     shortDescription:
       "Testing Trystero: a clandestine courier network that lets application users talk directly, encrypted and without a server.",
