@@ -8,7 +8,7 @@ on:
 permissions:
   contents: read
   pages: write
-  id-token: write  # This is what's missing!
+  id-token: write 
 
 jobs:
   deploy:
