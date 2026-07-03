@@ -103,7 +103,10 @@ export const MediaModal: React.FC<MediaModalProps> = ({ item, onClose }) => {
 
               {item.featured && (
                 <a
-                  onClick={() => window.openAwardBadge()}
+                  onClick={() => {
+                    // @ts-ignore
+                    window.openAwardBadge();
+                  }}
                   target="_blank"
                   rel="noreferrer"
                   className=" cursor-pointer relative overflow-hidden flex items-center justify-center  bg-yellow-600 hover:bg-yellow-500 text-zinc-950 font-bold px-6 py-2 rounded transition-colors group/btn"

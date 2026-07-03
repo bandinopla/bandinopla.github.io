@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Shield, X, ExternalLink, Star } from "lucide-react";
+import { X, ExternalLink, Star } from "lucide-react";
 import { MOCK_DATA } from "../data";
 
 export const AwardBadge: React.FC = () => {
@@ -20,6 +20,7 @@ export const AwardBadge: React.FC = () => {
     };
   }, [isOpen]);
 
+  // @ts-ignore
   window.openAwardBadge = () => setIsOpen(true);
 
   if (!featuredItem || !featuredItem.featured) {
