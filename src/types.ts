@@ -19,6 +19,16 @@ export interface GalleryImage {
   caption?: string;
 }
 
+export interface FeaturedInfo {
+  whereUrl: string;
+  projectUrl: string;
+  when: string;
+  comments: string;
+  verb: string;
+  what: string;
+  screenshotUrl: string;
+}
+
 export interface MediaItem {
   id: string;
   title: string;
@@ -30,4 +40,5 @@ export interface MediaItem {
   longDescription: string;
   category: Category;
   links: MediaLink[];
+  featured?: FeaturedInfo;
 }

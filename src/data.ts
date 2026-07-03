@@ -68,6 +68,15 @@ export const MOCK_DATA: MediaItem[] = [
       { url: "/pip-skull/3.jpg" },
       { url: "/pip-skull/4.jpg" },
     ],
+    featured: {
+      projectUrl: "https://bandinopla.github.io/pip-skull-demo",
+      screenshotUrl: "/at-threejs-frontpage.png",
+      verb: "Featured",
+      what: "threejs.org",
+      when: "July 2026",
+      whereUrl: "https://threejs.org/",
+      comments: `"P.I.P: Skull Demo" was honored to be selected for the official Three.js homepage showcase, placing it before the global WebGL, WebGPU, and creative development community. This recognition from the maintainers of one of the industry's most widely used 3D web libraries highlights the project's technical quality, creativity, and execution.`,
+    },
   },
   {
     id: "pip0",
