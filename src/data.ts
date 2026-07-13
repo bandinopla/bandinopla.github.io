@@ -3,11 +3,43 @@ import { Category, type MediaItem } from "./types";
 export const MOCK_DATA: MediaItem[] = [
   // ─── Libraries ──────────────────────────────────────────────────────
   {
+    id: "startle-in-the-depths",
+    title: "Startle in the depths",
+    category: Category.Concept,
+    thumbnailUrl: "/startle-in-the-depths/cover.jpg",
+    heroCoverUrl: "/startle-in-the-depths/cover.jpg",
+    gallery: [
+      { url: "/startle-in-the-depths/1.jpg" },
+      { url: "/startle-in-the-depths/2.jpg" },
+      { url: "/startle-in-the-depths/3.jpg" },
+      { url: "/startle-in-the-depths/4.jpg" },
+      { url: "/startle-in-the-depths/5.jpg" },
+    ],
+    youtubeVideoUrl: "https://www.youtube.com/watch?v=EPhshVUeyr0",
+    shortDescription:
+      "Exploring atmosphere, storytelling, and visuals with a teaser for an imaginary game. ",
+    longDescription:
+      "I wanted to create a short, atmospheric experience that tells a story using only the environment, lighting, and sound. The idea was to build a small, self-contained scene that feels like a moment from a larger world, focusing on mood and visual storytelling rather than complex gameplay mechanics.",
+
+    links: [
+      {
+        caption: "Startle in the depths",
+        url: "https://x.com/bandinopla/status/2076671448345678310",
+        description: "Tweaser video on X",
+      },
+      {
+        caption: "Startle in the depths",
+        url: "https://www.youtube.com/watch?v=EPhshVUeyr0",
+        description: "Better quality video",
+      },
+    ],
+  },
+  {
     id: "lone-falcon",
     title: "Lone Falcon",
     category: Category.Concept,
     thumbnailUrl: "/lone-falcon/cover.jpg",
-    heroCoverUrl: "/lone-falcon/cover.jpg",
+    //heroCoverUrl: "/lone-falcon/cover.jpg",
     gallery: [
       { url: "/lone-falcon/1.jpg" },
       { url: "/lone-falcon/2.jpg" },
