@@ -5,6 +5,7 @@ export enum Category {
 
   Animations = "Animations",
   Concept = "Concept",
+  Modeling = "3D Modeling",
 }
 
 export interface MediaLink {

@@ -1043,7 +1043,7 @@ export const MOCK_DATA: MediaItem[] = [
   {
     id: "vampire",
     title: "Vampire Lady",
-    category: Category.Concept,
+    category: Category.Modeling,
     thumbnailUrl: "/img/vampire.jpg",
     heroCoverUrl: "/img/vampire.jpg",
     shortDescription:
@@ -1065,7 +1065,7 @@ export const MOCK_DATA: MediaItem[] = [
   {
     id: "retopo",
     title: "Blender Scene",
-    category: Category.Concept,
+    category: Category.Modeling,
     thumbnailUrl: "/thumbnails/retopo.jpg",
     heroCoverUrl: "/img/blender.jpeg",
     shortDescription:
@@ -1086,7 +1086,7 @@ export const MOCK_DATA: MediaItem[] = [
   {
     id: "cu",
     title: "Bullzara",
-    category: Category.Concept,
+    category: Category.Modeling,
     thumbnailUrl: "/img/bull.jpg",
     heroCoverUrl: "/img/bull.jpg",
     shortDescription:
@@ -1096,6 +1096,56 @@ export const MOCK_DATA: MediaItem[] = [
       {
         caption: "ArtStation (pics and videos)",
         url: "https://www.artstation.com/artwork/xDrNQR",
+      },
+    ],
+  },
+  {
+    id: "thief",
+    title: "The Thief",
+    category: Category.Modeling,
+    thumbnailUrl: "/3d/thief.jpg",
+    shortDescription: "2D to 3D concept",
+    longDescription: `Done for an artstation contest “Forgotten realms” category “film/vfx character art (rendered)” i’ve used a concept art done by Margaux Doury called “The thief”.`,
+    links: [
+      {
+        caption: "ArtStation (pics and videos)",
+        url: "https://www.artstation.com/artwork/mzRVe9",
+      },
+      {
+        caption: "Diary / progress",
+        url: "https://www.artstation.com/challenges/dragons-rise-the-forgotten-realms/categories/166/submissions/73084",
+      },
+      {
+        caption: "Sketchfab model",
+        url: "https://sketchfab.com/3d-models/the-thief-b23da3bcbb004ca3800c44821d706d93",
+      },
+    ],
+  },
+  {
+    id: "angel-eater",
+    title: "Angel Eater",
+    category: Category.Modeling,
+    thumbnailUrl: "/3d/angel-eater.jpg",
+    shortDescription: "2D to 3D concept",
+    longDescription: `Original concept by Thiago Lehmann I did the 3D interpretation.`,
+    links: [
+      {
+        caption: "ArtStation (pics and videos)",
+        url: "https://www.artstation.com/artwork/WmaezG",
+      },
+    ],
+  },
+  {
+    id: "jim",
+    title: "Jim",
+    category: Category.Modeling,
+    thumbnailUrl: "/3d/jim.jpg",
+    shortDescription: "2D to 3D concept",
+    longDescription: `Earth worm Jim! my favourite sega game when i was a kid. good memories!`,
+    links: [
+      {
+        caption: "ArtStation (pics and videos)",
+        url: "https://www.artstation.com/artwork/QrOZqd",
       },
     ],
   },
