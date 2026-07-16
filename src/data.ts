@@ -252,7 +252,7 @@ export const MOCK_DATA: MediaItem[] = [
   {
     id: "hope2",
     title: "Hope2 (WIP)",
-    category: Category.Games,
+    category: Category.Concept,
     thumbnailUrl: "/hope2/cover.jpg",
     youtubeVideoUrl: "https://www.youtube.com/watch?v=YP_k6HFQFVo",
     shortDescription:
