@@ -1103,7 +1103,7 @@ export const MOCK_DATA: MediaItem[] = [
     id: "thief",
     title: "The Thief",
     category: Category.Modeling,
-    thumbnailUrl: "/3d/thief.jpg",
+    thumbnailUrl: "/modeling/thief.jpg",
     shortDescription: "2D to 3D concept",
     longDescription: `Done for an artstation contest “Forgotten realms” category “film/vfx character art (rendered)” i’ve used a concept art done by Margaux Doury called “The thief”.`,
     links: [
@@ -1125,7 +1125,7 @@ export const MOCK_DATA: MediaItem[] = [
     id: "angel-eater",
     title: "Angel Eater",
     category: Category.Modeling,
-    thumbnailUrl: "/3d/angel-eater.jpg",
+    thumbnailUrl: "/modeling/angel-eater.jpg",
     shortDescription: "2D to 3D concept",
     longDescription: `Original concept by Thiago Lehmann I did the 3D interpretation.`,
     links: [
@@ -1139,7 +1139,7 @@ export const MOCK_DATA: MediaItem[] = [
     id: "jim",
     title: "Jim",
     category: Category.Modeling,
-    thumbnailUrl: "/3d/jim.jpg",
+    thumbnailUrl: "/modeling/jim.jpg",
     shortDescription: "2D to 3D concept",
     longDescription: `Earth worm Jim! my favourite sega game when i was a kid. good memories!`,
     links: [
