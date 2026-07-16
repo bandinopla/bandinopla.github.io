@@ -3,6 +3,32 @@ import { Category, type MediaItem } from "./types";
 export const MOCK_DATA: MediaItem[] = [
   // ─── Libraries ──────────────────────────────────────────────────────
   {
+    id: "threejs-instancedanimatedmesh",
+    title: "Instanced Animated Mesh",
+    category: Category.Libraries,
+    thumbnailUrl: "/threejs-instanced-animated-mesh/thumbnail.jpg",
+    shortDescription: "NPM package for instanced animated mesh manipulation",
+    longDescription: `Wrapper with some sintax sugar around threejs example webgpu_skinning_instancing_individual originally done by RenaudRohlinger to allow the instancing of multiple animated skinned meshes. All instances share one skeleton but can play diferent animations.`,
+    links: [
+      {
+        caption: "Github Repo",
+        url: "https://github.com/bandinopla/threejs-instancedanimatedmesh",
+        description: "Source code + Example",
+      },
+      {
+        caption: "Online Demo",
+        launch: true,
+        url: "https://bandinopla.github.io/threejs-instancedanimatedmesh/",
+        description: "Playable demo",
+      },
+      {
+        caption: "NPM Package",
+        url: "https://www.npmjs.com/package/threejs-instancedanimatedmesh",
+        description: "NPM package for instanced animated mesh manipulation",
+      },
+    ],
+  },
+  {
     id: "startle-in-the-depths",
     title: "Startle in the depths",
     category: Category.Concept,
