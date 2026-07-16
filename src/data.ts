@@ -209,6 +209,27 @@ export const MOCK_DATA: MediaItem[] = [
       },
     ],
   },
+
+  {
+    id: "facecap-game",
+    title: "Remember the Youtubers",
+    category: Category.Games,
+    thumbnailUrl: "/faces-memory-game/thumbnail.jpg",
+    shortDescription: "Card game using facecap to animate faces",
+    longDescription:
+      "Using the Facecap editor I created the assets for this mini memory game. You have to find and match the faces of the youtubers.",
+    links: [
+      {
+        caption: "Launch the Game",
+        launch: true,
+        url: "https://bandinopla.github.io/three-mediapipe-rig/?demo=game-youtubers",
+      },
+      {
+        caption: "MeshCap editor",
+        url: "https://bandinopla.github.io/three-mediapipe-rig/?editor=meshcap",
+      },
+    ],
+  },
   {
     id: "meowjong",
     title: "Meowjong Solitaire",
