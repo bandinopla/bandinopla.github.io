@@ -290,7 +290,7 @@ export const MOCK_DATA: MediaItem[] = [
   {
     id: "aethelgard",
     title: "Aethelgard",
-    category: Category.Games,
+    category: Category.Concept,
     thumbnailUrl: "/thumbnails/aethelgard.jpg",
     youtubeVideoUrl: "https://www.youtube.com/watch?v=4MGq9mOy3aY",
     shortDescription:
