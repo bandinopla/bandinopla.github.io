@@ -3,6 +3,31 @@ import { Category, type MediaItem } from "./types";
 export const MOCK_DATA: MediaItem[] = [
   // ─── Libraries ──────────────────────────────────────────────────────
   {
+    id: "easy-bugs",
+    title: "Easy Bugs",
+    category: Category.Libraries,
+    thumbnailUrl: "/easy-bugs.jpg",
+    youtubeVideoUrl: "https://www.youtube.com/watch?v=-iUoZ9c-H2w",
+    shortDescription: "NPM package to easily rig bugs and their tiny legs",
+    longDescription:
+      "Easily rig a bug's skeleton using IK to move it's legs over irregular with minimal setup.",
+    links: [
+      {
+        caption: "Repository",
+        url: "https://github.com/bandinopla/threejs-easybugs",
+      },
+      {
+        caption: "Demo",
+        url: "https://bandinopla.github.io/threejs-easybugs/",
+        launch: true,
+      },
+      {
+        caption: "NPM package",
+        url: "https://www.npmjs.com/package/threejs-easybugs",
+      },
+    ],
+  },
+  {
     id: "threejs-instancedanimatedmesh",
     title: "Instanced Animated Mesh",
     category: Category.Libraries,
