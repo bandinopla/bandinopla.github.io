@@ -3,6 +3,35 @@ import { Category, type MediaItem } from "./types";
 export const MOCK_DATA: MediaItem[] = [
   // ─── Libraries ──────────────────────────────────────────────────────
   {
+    id: "easy-fire",
+    title: "EasyFire",
+    category: Category.Libraries,
+    thumbnailUrl: "easy-fire.jpg",
+    youtubeVideoUrl: "https://www.youtube.com/watch?v=kfmGJ1Nt7Tw",
+    shortDescription: "NPM package to easily create fire",
+    longDescription:
+      "Easily create volumetric fire and add it to your projects with minimal API. Runs on the GPU and supports collision detection vía Signed Distance Field shapes but for the user it is a smooth non-math process.",
+    links: [
+      {
+        caption: "Repository",
+        url: "https://github.com/bandinopla/threejs-easyfire",
+      },
+      {
+        caption: "Demo",
+        url: "https://bandinopla.github.io/threejs-easyfire/",
+        launch: true,
+      },
+      {
+        caption: "NPM package",
+        url: "https://www.npmjs.com/package/threejs-easyfire",
+      },
+      {
+        caption: "Post on X",
+        url: "https://x.com/bandinopla/status/2082907484394521071",
+      },
+    ],
+  },
+  {
     id: "easy-bugs",
     title: "Easy Bugs",
     category: Category.Libraries,
