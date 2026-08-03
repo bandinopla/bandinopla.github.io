@@ -7,7 +7,7 @@ export const MOCK_DATA: MediaItem[] = [
     title: "EasyFire",
     category: Category.Libraries,
     thumbnailUrl: "easy-fire.jpg",
-    youtubeVideoUrl: "https://www.youtube.com/watch?v=kfmGJ1Nt7Tw",
+    youtubeVideoUrl: "https://www.youtube.com/watch?v=l3oA-vIUbtM",
     shortDescription: "NPM package to easily create fire",
     longDescription:
       "Easily create volumetric fire and add it to your projects with minimal API. Runs on the GPU and supports collision detection vía Signed Distance Field shapes but for the user it is a smooth non-math process.",
