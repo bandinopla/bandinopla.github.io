@@ -3,6 +3,30 @@ import { Category, type MediaItem } from "./types";
 export const MOCK_DATA: MediaItem[] = [
   // ─── Libraries ──────────────────────────────────────────────────────
   {
+    id: "pnoise",
+    title: "Noise Collection",
+    category: Category.Libraries,
+    thumbnailUrl: "noise.jpg",
+    shortDescription: "Procedural Noise TSL Nodes",
+    longDescription:
+      "Port of GLSL Procedural Noise Collection by lumey on fragcoord.xyz to Three.js TSL",
+    links: [
+      {
+        url: "https://github.com/bandinopla/threejs-noise-functions",
+        caption: "Github Repository",
+      },
+      {
+        url: "https://bandinopla.github.io/threejs-noise-functions/",
+        launch: true,
+        caption: "Noise Picker",
+      },
+      {
+        url: "https://www.npmjs.com/package/threejs-noise-functions",
+        caption: "NPM package",
+      },
+    ],
+  },
+  {
     id: "easy-fire",
     title: "EasyFire",
     category: Category.Libraries,
