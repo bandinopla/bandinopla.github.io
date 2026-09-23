@@ -53,6 +53,10 @@ export const MOCK_DATA: MediaItem[] = [
         caption: "Post on X",
         url: "https://x.com/bandinopla/status/2082907484394521071",
       },
+      {
+        caption: "Added to Threejs-Awesome-Graphics-Agent-Skills",
+        url: "https://github.com/scottstts/Threejs-Awesome-Graphics-Agent-Skills",
+      },
     ],
   },
   {
